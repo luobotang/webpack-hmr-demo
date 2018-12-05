@@ -6,7 +6,7 @@ if (module.hot && module.hot.data) {
   current = module.hot.data.current
 }
 var root = document.getElementById('root')
-start(onUpdate, current)
+var stop = start(onUpdate, current)
 
 console.log(message)
 
