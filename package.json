@@ -1,0 +1,31 @@
+{
+  "name": "webpack-hmr-demo",
+  "version": "0.1.0",
+  "description": "DEMO of Webpack HMR",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luobotang/webpack-hmr-demo.git"
+  },
+  "keywords": [
+    "HMR",
+    "Wepack",
+    "DEMO"
+  ],
+  "author": "luobotang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luobotang/webpack-hmr-demo/issues"
+  },
+  "homepage": "https://github.com/luobotang/webpack-hmr-demo#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
