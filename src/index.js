@@ -3,7 +3,7 @@ import { message } from './foo'
 
 var current = 0
 var root = document.getElementById('root')
-start(onUpdate, current)
+var stop = start(onUpdate, current)
 
 console.log(message)
 
