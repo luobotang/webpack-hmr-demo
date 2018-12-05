@@ -11,3 +11,11 @@ function onUpdate(i) {
   current = i
   root.textContent = '#' + i
 }
+
+if (module.hot) {
+  module.hot.accept('./timer', function() {
+    stop()
+    stop = start(onUpdate, current)
+  })
+  module.hot.decline('./foo')
+}
